@@ -1,0 +1,54 @@
+body{
+    margin:0px;
+    background-color:rgba(4, 38, 82, 0.986);
+    box-sizing: border-box;
+}
+.to-do-list{
+    height: 3rem;
+    margin: 0 auto;
+    background-color: rgb(78, 142, 226);
+    border: 5px solid rgb(45, 110, 207);
+    font-size: 2.3rem;
+    padding-left: 45%;
+    padding-top: 2px;
+    color: rgba(2, 19, 41, 0.986);
+    font-family:fantasy;
+}
+li{
+    list-style:none;
+}
+.input-container{
+    height:20vh;
+    border:5px solid #e4e4e4;
+    background-color: white;
+}
+.input-box{
+    font-family: 'Roboto Slab',serif;
+    height:30%;
+    width:70%;
+    display:block;
+    margin:0 auto;
+    margin-top:2.2rem;
+    color:black;
+    font-size: 30px;
+}
+.main-container{
+    font-family: 'Roboto Slab',serif;
+    color:white;
+    text-align:center;
+}
+.action{
+    font-size:2rem;
+}
+.task-list{
+    width:70vw;
+    margin:0 auto;
+    padding:0;
+}
+.task{
+    font-size:1.5rem;
+    background-color: rgb(78, 142, 226);
+    margin-top:1rem;
+    height:2.3rem;
+    align-items: center;
+}
